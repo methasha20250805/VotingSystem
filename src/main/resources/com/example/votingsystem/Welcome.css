@@ -1,0 +1,65 @@
+/*
+  welcome.css
+  -----------
+  Styling for the new welcome screen only. Does not touch any of the
+  existing VotingApp.java screens, so the rest of the app keeps its
+  current look untouched.
+*/
+
+.welcome-root {
+    -fx-background-color: linear-gradient(to bottom right, #0b2545, #13315c);
+}
+
+.flag-emoji {
+    -fx-font-size: 48px;
+}
+
+.title-label {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.subtitle-label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #cdd9e5;
+}
+
+.divider {
+    -fx-pref-height: 1px;
+    -fx-pref-width: 320px;
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+}
+
+.feature-list {
+    -fx-padding: 10 0 10 0;
+}
+
+.feature-item {
+    -fx-font-size: 13px;
+    -fx-text-fill: #e8edf2;
+}
+
+.enter-button {
+    -fx-background-color: #d4af37;
+    -fx-text-fill: #0b2545;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 28 10 28;
+    -fx-background-radius: 24;
+    -fx-cursor: hand;
+}
+
+.enter-button:hover {
+    -fx-background-color: #e6c660;
+}
+
+.enter-button:pressed {
+    -fx-background-color: #b8932c;
+}
+
+.footer-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #8ea3bd;
+    -fx-padding: 15 0 0 0;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    WelcomeView.fxml
+
+    A simple welcome screen shown before the main app opens. Purely a
+    landing page - it does not duplicate or replace any logic from
+    VotingApp.java; clicking "Enter System" just hands off to the
+    existing, unmodified VotingApp screen.
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.votingsystem.WelcomeController"
+      alignment="CENTER" spacing="18" styleClass="welcome-root">
+
+    <padding>
+        <Insets top="60" right="60" bottom="60" left="60"/>
+    </padding>
+
+    <Label text="🇱🇰" styleClass="flag-emoji"/>
+
+    <Label text="Sri Lanka Voting System" styleClass="title-label"/>
+    <Label text="Data Processing, Search &amp; Reporting Module" styleClass="subtitle-label"/>
+
+    <Region styleClass="divider"/>
+
+    <VBox alignment="CENTER_LEFT" spacing="10" styleClass="feature-list">
+        <Label text="✔  Import &amp; validate ballots.csv with inline correction" styleClass="feature-item"/>
+        <Label text="✔  Votes Received Report for any given date" styleClass="feature-item"/>
+        <Label text="✔  Average voter age per candidate seat" styleClass="feature-item"/>
+        <Label text="✔  District search with wildcard (*) support &amp; export" styleClass="feature-item"/>
+    </VBox>
+
+    <Region styleClass="divider"/>
+
+    <Button text="Enter System  →" onAction="#onEnterSystem" styleClass="enter-button"/>
+
+    <Label text="Semester 2 — Python &amp; JavaFX Voting System Project" styleClass="footer-label"/>
+
+</VBox>
