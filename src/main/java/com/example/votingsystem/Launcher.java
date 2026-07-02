@@ -6,15 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/**
- * Launcher.java
- * -------------
- * New main entry point. Loads WelcomeView.fxml as the first screen the
- * user sees, then hands off to the existing VotingApp once they click
- * "Enter System". VotingApp.java itself is completely unmodified - run
- * this class instead of VotingApp directly if you want the new welcome
- * screen; running VotingApp.main() still works exactly as before.
- */
+
 public class Launcher extends Application {
 
     @Override
