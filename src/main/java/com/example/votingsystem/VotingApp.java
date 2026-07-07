@@ -19,20 +19,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-/**
- * VotingApp.java
- * --------------
- * Main entry point. Builds a TabPane with the 4 screens required by the
- * spec:
- *   1. Import & Validate ballots.csv (with inline correction of bad rows)
- *   2. Votes Received Report for a given date
- *   3. Average age of the voter base per candidate seat
- *   4. District search (supports a trailing "*" wildcard) with text export
- *
- * Run with: java --module-path <path-to-javafx-lib> --add-modules javafx.controls votingapp.VotingApp
- * (or just run it from your IDE if the JavaFX SDK is already configured,
- * the same way you ran your Library Management System project.)
- */
+
 public class VotingApp extends Application {
 
     private final DataStore dataStore = new DataStore();
