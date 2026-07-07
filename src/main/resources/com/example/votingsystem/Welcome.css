@@ -1,10 +1,4 @@
-/*
-  welcome.css
-  -----------
-  Styling for the new welcome screen only. Does not touch any of the
-  existing VotingApp.java screens, so the rest of the app keeps its
-  current look untouched.
-*/
+
 
 .welcome-root {
     -fx-background-color: linear-gradient(to bottom right, #0b2545, #13315c);
