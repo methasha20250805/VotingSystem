@@ -10,17 +10,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.*;
 
-/**
- * DataStore.java
- * --------------
- * Loads voter.csv, candidate.csv and ballots.csv (produced by the Python
- * registration app) into memory, validates ballots against the 4 rules
- * required by the spec, and provides the queries needed by the report
- * screens (votes received, average age per seat, district search).
- *
- * Design note: voters/candidates are kept in HashMaps keyed by id for
- * O(1) lookup during validation of (potentially) thousands of ballot rows.
- */
+
 public class DataStore {
 
     private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd");
