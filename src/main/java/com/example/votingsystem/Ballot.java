@@ -3,16 +3,7 @@ package com.example.votingsystem;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
-/**
- * Ballot.java
- * -----------
- * Data holder for a ballot record. Uses JavaFX StringProperty fields
- * (rather than plain Strings) so that the Import screen's TableView can
- * bind directly to them and let the user edit invalid rows in place.
- *
- * voterAge and district are looked up from the matching Voter record
- * once the row is valid; until then they may be blank.
- */
+
 public class Ballot {
     private final StringProperty date = new SimpleStringProperty();
     private final StringProperty voterId = new SimpleStringProperty();
