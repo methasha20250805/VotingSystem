@@ -12,7 +12,6 @@ public class Ballot {
     private final StringProperty voterAge = new SimpleStringProperty();
     private final StringProperty district = new SimpleStringProperty();
 
-    // Not persisted to CSV - used only to show the user why a row failed import
     private final StringProperty errorReason = new SimpleStringProperty("");
 
     public Ballot(String date, String voterId, String candidateId, String candidateSeat,
