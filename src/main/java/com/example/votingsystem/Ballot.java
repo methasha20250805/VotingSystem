@@ -34,12 +34,12 @@ public class Ballot {
     public void setVoterId(String v) { voterId.set(v); }
     public StringProperty voterIdProperty() { return voterId; }
 
-    // ----- candidateId -----
+    //  candidateId
     public String getCandidateId() { return candidateId.get(); }
     public void setCandidateId(String v) { candidateId.set(v); }
     public StringProperty candidateIdProperty() { return candidateId; }
 
-    // ----- candidateSeat -----
+    //  candidateSeat
     public String getCandidateSeat() { return candidateSeat.get(); }
     public void setCandidateSeat(String v) { candidateSeat.set(v); }
     public StringProperty candidateSeatProperty() { return candidateSeat; }
