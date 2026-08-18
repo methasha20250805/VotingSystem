@@ -26,7 +26,7 @@ public class DataStore {
     //
     // Loading voter.csv and candidate.csv (assumed clean, per spec these
     // are "preloaded with valid data" - only ballots.csv needs validation)
-    // ------------------------------------------------------------------
+    //
     public void loadVoters(File file) throws IOException {
         voters.clear();
         List<String> lines = Files.readAllLines(file.toPath());
