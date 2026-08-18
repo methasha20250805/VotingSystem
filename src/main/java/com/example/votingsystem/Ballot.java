@@ -54,7 +54,7 @@ public class Ballot {
     public void setDistrict(String v) { district.set(v); }
     public StringProperty districtProperty() { return district; }
 
-    // ----- errorReason (import screen only) -----
+    // errorReason (import screen only)
     public String getErrorReason() { return errorReason.get(); }
     public void setErrorReason(String v) { errorReason.set(v); }
     public StringProperty errorReasonProperty() { return errorReason; }
