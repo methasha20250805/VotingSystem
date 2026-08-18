@@ -44,12 +44,12 @@ public class Ballot {
     public void setCandidateSeat(String v) { candidateSeat.set(v); }
     public StringProperty candidateSeatProperty() { return candidateSeat; }
 
-    // ----- voterAge -----
+    // voterAge
     public String getVoterAge() { return voterAge.get(); }
     public void setVoterAge(String v) { voterAge.set(v); }
     public StringProperty voterAgeProperty() { return voterAge; }
 
-    // ----- district -----
+    // district
     public String getDistrict() { return district.get(); }
     public void setDistrict(String v) { district.set(v); }
     public StringProperty districtProperty() { return district; }
