@@ -107,7 +107,7 @@ public class DataStore {
         }
     }
 
-    /** Returns null if valid, or an error message describing the first failed rule. */
+//  Returns null if valid, or an error message describing the first failed rule. */
     public String validate(Ballot ballot) {
         // a) Invalid voter id
         String voterId = ballot.getVoterId();
