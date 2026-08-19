@@ -24,8 +24,7 @@ public class DataStore {
     private final ObservableList<Ballot> invalidBallots = FXCollections.observableArrayList();
 
 
-    // Loading voter.csv and candidate.csv (assumed clean, per spec these
- are "preloaded with valid data" - only ballots.csv needs validation)
+    // Loading voter.csv and candidate.csv (assumed clean, per spec these are "preloaded with valid data" - only ballots.csv needs validation)
 
     public void loadVoters(File file) throws IOException {
         voters.clear();
