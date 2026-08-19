@@ -86,10 +86,10 @@ public class DataStore {
         }
     }
 
-//     * Runs all 4 validation rules against a ballot. If it passes, fills in
-//     * voterAge/district from the matching Voter and files it under valid;
-//     * otherwise files it under invalid with a human-readable reason.
-//     * Used both during initial import and after the user edits a row.
+//     Runs all 4 validation rules against a ballot. If it passes, fills in
+//     voterAge/district from the matching Voter and files it under valid;
+//     otherwise files it under invalid with a human-readable reason.
+//     Used both during initial import and after the user edits a row.
 
     public void classifyBallot(Ballot ballot) {
         String error = validate(ballot);
