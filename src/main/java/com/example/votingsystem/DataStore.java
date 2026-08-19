@@ -91,8 +91,7 @@ public class DataStore {
     public void classifyBallot(Ballot ballot) {
         String error = validate(ballot);
         if (error == null) {
-            // Auto-fill age/district from the voter record, since these
-            // are derived fields, not something the user should retype.
+            // Auto-fill age/district from the voter record, since these are derived fields, not something the user should retype.
             Voter v = voters.get(ballot.getVoterId());
             if (v != null) {
                 ballot.setVoterAge(String.valueOf(v.getAge()));
