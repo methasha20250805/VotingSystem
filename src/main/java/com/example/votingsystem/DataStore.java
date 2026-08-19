@@ -23,10 +23,10 @@ public class DataStore {
     // Ballots that failed validation on import - shown to the user for correction
     private final ObservableList<Ballot> invalidBallots = FXCollections.observableArrayList();
 
-    //
+
     // Loading voter.csv and candidate.csv (assumed clean, per spec these
     // are "preloaded with valid data" - only ballots.csv needs validation)
-    //
+
     public void loadVoters(File file) throws IOException {
         voters.clear();
         List<String> lines = Files.readAllLines(file.toPath());
