@@ -63,7 +63,7 @@ public class DataStore {
 
     // ------------------------------------------------------------------
     // Loading ballots.csv WITH validation (the focus of requirement 1)
-    // ------------------------------------------------------------------
+
     public void loadBallots(File file) throws IOException {
         validBallots.clear();
         invalidBallots.clear();
