@@ -153,9 +153,8 @@ public class DataStore {
         return counts;
     }
 
-    // ------------------------------------------------------------------
     // Report 3: Average age of the voter base per candidate seat
-    // ------------------------------------------------------------------
+
     public Map<String, Double> averageAgePerSeat() {
         Map<String, Integer> totalAge = new TreeMap<>();
         Map<String, Integer> count = new TreeMap<>();
