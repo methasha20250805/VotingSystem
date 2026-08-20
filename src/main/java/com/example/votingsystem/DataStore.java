@@ -138,9 +138,8 @@ public class DataStore {
         return null;
     }
 
-    // ------------------------------------------------------------------
     // Report 2: Votes Received Report for a given date
-    // ------------------------------------------------------------------
+
     public Map<String, Integer> votesReceivedOnDate(String date) {
         Map<String, Integer> counts = new LinkedHashMap<>();
         for (Ballot b : validBallots) {
