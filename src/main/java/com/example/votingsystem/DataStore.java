@@ -178,9 +178,8 @@ public class DataStore {
         return averages;
     }
 
-    // ------------------------------------------------------------------
     // Report 4: Search ballots by district, with trailing wildcard "*"
-    // ------------------------------------------------------------------
+
     public List<Ballot> searchByDistrict(String pattern) {
         List<Ballot> results = new ArrayList<>();
         if (pattern == null || pattern.isEmpty()) return results;
