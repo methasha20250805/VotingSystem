@@ -207,9 +207,8 @@ public class DataStore {
         }
     }
 
-    // ------------------------------------------------------------------
     // Accessors
-    // ------------------------------------------------------------------
+
     public ObservableList<Ballot> getValidBallots() { return validBallots; }
     public ObservableList<Ballot> getInvalidBallots() { return invalidBallots; }
     public Map<String, Voter> getVoters() { return voters; }
