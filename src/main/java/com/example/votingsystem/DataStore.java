@@ -115,7 +115,6 @@ public class DataStore {
             return "Invalid voter id";
         }
 
-        // b) Invalid candidate id
         String candidateId = ballot.getCandidateId();
         Candidate candidate = candidates.get(candidateId);
         if (candidateId == null || !candidateId.matches("\\d{10}") || candidate == null) {
