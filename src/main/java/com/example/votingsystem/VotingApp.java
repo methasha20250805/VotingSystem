@@ -207,9 +207,8 @@ public class VotingApp extends Application {
         return box;
     }
 
-    // ======================================================================
     // TAB 3: AVERAGE AGE OF VOTER BASE PER CANDIDATE SEAT
-    // ======================================================================
+
     private VBox buildAverageAgeTab() {
         Button calcBtn = new Button("Calculate Average Age per Seat");
 
