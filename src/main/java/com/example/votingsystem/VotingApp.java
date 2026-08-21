@@ -173,9 +173,8 @@ public class VotingApp extends Application {
         }
     }
 
-    // ======================================================================
     // TAB 2: VOTES RECEIVED REPORT (for a given date)
-    // ======================================================================
+
     private VBox buildVotesReceivedTab() {
         DatePicker datePicker = new DatePicker();
         Button generateBtn = new Button("Generate Report");
