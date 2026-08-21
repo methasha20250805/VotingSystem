@@ -121,7 +121,6 @@ public class DataStore {
             return "Invalid candidate id";
         }
 
-        // c) Invalid seat number - must match the seat registered for that candidate
         String seat = ballot.getCandidateSeat();
         if (seat == null || !seat.equals(candidate.getSeatNumber())) {
             return "Invalid seat number";
