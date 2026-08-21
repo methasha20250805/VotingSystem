@@ -126,7 +126,7 @@ public class DataStore {
             return "Invalid seat number";
         }
 
-        // d) Invalid date - must be yyyy-mm-dd
+
         try {
             LocalDate.parse(ballot.getDate(), DATE_FORMAT);
         } catch (DateTimeParseException | NullPointerException e) {
