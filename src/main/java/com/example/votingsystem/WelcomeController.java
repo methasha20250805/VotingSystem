@@ -8,7 +8,7 @@ public class WelcomeController {
 
     private Stage stage;
 
-    /** Called by Launcher right after loading the FXML, so we have a Stage to hand off to. */
+    //Called by Launcher right after loading the FXML, so we have a Stage to hand off to
     public void setStage(Stage stage) {
         this.stage = stage;
     }
