@@ -50,9 +50,9 @@ public class VotingApp extends Application {
         primaryStage.show();
     }
 
-    // ======================================================================
+
     // TAB 1: IMPORT & VALIDATE
-    // ======================================================================
+
     private VBox buildImportTab() {
         voterFileLabel = new Label("No file selected");
         candidateFileLabel = new Label("No file selected");
