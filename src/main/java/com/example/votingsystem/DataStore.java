@@ -205,7 +205,7 @@ public class DataStore {
         }
     }
 
-    // Accessors
+    // Getters and setters
 
     public ObservableList<Ballot> getValidBallots() { return validBallots; }
     public ObservableList<Ballot> getInvalidBallots() { return invalidBallots; }
