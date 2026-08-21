@@ -16,6 +16,7 @@ public class WelcomeController {
     @FXML
     private void onEnterSystem() {
         VotingApp votingApp = new VotingApp();
-        votingApp.start(stage); // reuses VotingApp's existing TabPane UI as-is
+        votingApp.start(stage);
+        // reuses VotingApp's existing TabPane UI as-is
     }
 }
