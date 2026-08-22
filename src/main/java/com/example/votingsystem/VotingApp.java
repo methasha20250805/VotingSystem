@@ -277,9 +277,7 @@ public class VotingApp extends Application {
         return box;
     }
 
-    // ======================================================================
     // Shared helpers
-    // ======================================================================
     private File chooseCsvFile(String title) {
         FileChooser chooser = new FileChooser();
         chooser.setTitle(title);
