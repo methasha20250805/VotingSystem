@@ -134,8 +134,7 @@ public class VotingApp extends Application {
         return table;
     }
 
-//  Builds an editable String column. On edit commit, applies the new
-//  value via the given setter, then asks the DataStore to re-validate
+//  Builds an editable String column. On edit commit, applies the new value via the given setter, then asks the DataStore to re-validate
 //  the row - if it now passes, DataStore automatically moves it out of
 //  the invalid list (which the table is bound to), so it simply
 //  disappears from view once fixed.
