@@ -233,9 +233,8 @@ public class VotingApp extends Application {
         return box;
     }
 
-    // ======================================================================
     // TAB 4: SEARCH BALLOTS BY DISTRICT (supports trailing "*" wildcard)
-    // ======================================================================
+
     private VBox buildDistrictSearchTab() {
         TextField districtField = new TextField();
         districtField.setPromptText("e.g. Colombo  or  Col*");
