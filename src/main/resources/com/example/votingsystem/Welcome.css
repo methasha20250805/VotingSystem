@@ -22,7 +22,7 @@
 .divider {
     -fx-pref-height: 1px;
     -fx-pref-width: 320px;
-    -fx-background-color: rgba(255, 255, 255, 0.25);
+    -fx-background-color: rgba(239, 239, 239, 0.25);
 }
 
 .feature-list {
