@@ -3,8 +3,7 @@
 <!--
     WelcomeView.fxml
 
-    A simple welcome screen shown before the main app opens. Purely a
-    landing page - it does not duplicate or replace any logic from
+    A simple welcome screen shown before the main app opens. Purely a landing page - it does not duplicate or replace any logic from
     VotingApp.java; clicking "Enter System" just hands off to the
     existing, unmodified VotingApp screen.
 -->
