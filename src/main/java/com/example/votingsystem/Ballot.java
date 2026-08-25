@@ -29,7 +29,7 @@ public class Ballot {
     public void setDate(String v) { date.set(v); }
     public StringProperty dateProperty() { return date; }
 
-    //  voterId
+    //  get and set voterId
     public String getVoterId() { return voterId.get(); }
     public void setVoterId(String v) { voterId.set(v); }
     public StringProperty voterIdProperty() { return voterId; }
