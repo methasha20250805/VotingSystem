@@ -24,7 +24,7 @@ public class Ballot {
         this.district.set(district);
     }
 
-    //  date
+    //  get and set date
     public String getDate() { return date.get(); }
     public void setDate(String v) { date.set(v); }
     public StringProperty dateProperty() { return date; }
