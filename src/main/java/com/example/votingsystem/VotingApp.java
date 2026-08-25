@@ -24,7 +24,7 @@ public class VotingApp extends Application {
 
     private final DataStore dataStore = new DataStore();
 
-    // Import tab fields, kept so loadFilesAndValidate() can update them
+    // Import tab fields, kept so load files and validate, can update them
     private Label voterFileLabel;
     private Label candidateFileLabel;
     private Label ballotFileLabel;
