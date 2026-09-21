@@ -39,7 +39,7 @@ public class Ballot {
     public void setCandidateId(String v) { candidateId.set(v); }
     public StringProperty candidateIdProperty() { return candidateId; }
 
-    //  candidateSeat
+    //  getters and setters for the candidateSeat
     public String getCandidateSeat() { return candidateSeat.get(); }
     public void setCandidateSeat(String v) { candidateSeat.set(v); }
     public StringProperty candidateSeatProperty() { return candidateSeat; }
