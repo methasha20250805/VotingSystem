@@ -44,7 +44,7 @@ public class Ballot {
     public void setCandidateSeat(String v) { candidateSeat.set(v); }
     public StringProperty candidateSeatProperty() { return candidateSeat; }
 
-    // voterAge
+    // getters and setters for the voterAge
     public String getVoterAge() { return voterAge.get(); }
     public void setVoterAge(String v) { voterAge.set(v); }
     public StringProperty voterAgeProperty() { return voterAge; }
