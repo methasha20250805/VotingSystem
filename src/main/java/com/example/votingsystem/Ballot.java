@@ -49,7 +49,7 @@ public class Ballot {
     public void setVoterAge(String v) { voterAge.set(v); }
     public StringProperty voterAgeProperty() { return voterAge; }
 
-    // district
+    // getters and setters for the district
     public String getDistrict() { return district.get(); }
     public void setDistrict(String v) { district.set(v); }
     public StringProperty districtProperty() { return district; }
